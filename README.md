@@ -44,4 +44,6 @@ Step 11: 再次拷贝上图的文件到Anaconda的MXNet虚拟环境的Lib\\\site
 
 Step 12: ```conda install nb_conda``` 激活这个虚拟环境到juptyer notebook里面  打开jupyter book就可以进行测试了
 
+![iamge](https://raw.githubusercontent.com/Trouble404/Kaggle-Dog-breed-Identification/master/readme_pic_add/test.png)
+
 
