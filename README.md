@@ -1,6 +1,8 @@
 # Kaggle-Dog-breed-Identification
 Determine the breed of a dog in an image
 
+---
+
 **After Finish MXnet GPU install, Run [MXNet_test](https://github.com/Trouble404/Kaggle-Dog-breed-Identification/blob/master/mxnet_test/mxnet_test.ipynb) to check the MXnet working on GPU**
 
 # MXnet GPU version configuration (Windows 10. GTX960M)
