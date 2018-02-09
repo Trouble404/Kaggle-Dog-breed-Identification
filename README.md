@@ -26,6 +26,13 @@ Determine the breed of a dog in an image
 
 * Step 6: Install Anaconda 把安装路径添加到PATH里去
 
-* Step 7: Install MXnet 创建MXnet 文件夹 然后使用命令行CD至该文件夹 ```git clone --recursive https://github.com/dmlc/mxnet``` 在根目录创建build文件夹
+* Step 7: Install MXnet 创建MXnet 文件夹 然后使用命令行CD至该文件夹 ```git clone --recursive https://github.com/dmlc/mxnet``` 在根目录创建build文件夹  (补充操作 目前未使用： 打开make文件夹的config.mk 文件 修改USE_CUDNN = 0 to USE_CUDNN = 1, 修改USE_BLAS = openBLAS )
 
-* Step 8: Install Cmake
+* Step 8: Install Cmake Configure and Genreate VS工程 **mxnet.sln**  Configure的配置选择如下图
+![image](https://raw.githubusercontent.com/Trouble404/Kaggle-Dog-breed-Identification/master/readme_pic_add/cmake.PNG)
+
+* Step 9: 使用VS2015 打开mxnet.sln 切换成release模式 64位 然后启动编译 编译完成后，在mxnet_build\Release目录下生成了**libmxnet.dll**文件
+
+* Step 10: 使用Anaconda 新建一个虚拟环境 ```conda create  --name MXNet python=2.7```  MXNET目前不太适配python3, 激活环境 ```activate MXNet``` 
+
+* Step 10: cd 至mxnet文件夹的python文件夹里， 拷贝如图的各个文件到该文件夹 ```python setup.py install```
