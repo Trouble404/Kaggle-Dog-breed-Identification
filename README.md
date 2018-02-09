@@ -40,7 +40,7 @@ Determine the breed of a dog in an image
 ![iamge](https://raw.githubusercontent.com/Trouble404/Kaggle-Dog-breed-Identification/master/readme_pic_add/dll.PNG)
 然后使用 ```python setup.py install```
 
-Step 11: 再次拷贝上图的文件到Anaconda的MXNet虚拟环境的Lib\\\site-packages\mxnet-版本名.egg\mxnet 中 并且添加此路径到环境变量path中
+Step 11: 再次拷贝上图的文件到Anaconda的MXNet虚拟环境的 Lib\site-packages\mxnet-版本名.egg\mxnet 中 并且添加此路径到环境变量path中
 
 Step 12: ```conda install nb_conda``` 激活这个虚拟环境到juptyer notebook里面  打开jupyter book就可以进行测试了
 
