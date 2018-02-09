@@ -33,6 +33,15 @@ Determine the breed of a dog in an image
 
 * Step 9: 使用VS2015 打开mxnet.sln 切换成release模式 64位 然后启动编译 编译完成后，在mxnet_build\Release目录下生成了**libmxnet.dll**文件
 
-* Step 10: 使用Anaconda 新建一个虚拟环境 ```conda create  --name MXNet python=2.7```  MXNET目前不太适配python3, 激活环境 ```activate MXNet``` 
+* Step 10: 使用Anaconda的命令行 新建一个虚拟环境 ```conda create  --name MXNet python=2.7```  MXNET目前不太适配python3, 激活环境 ```activate MXNet``` 
 
-* Step 10: cd 至mxnet文件夹的python文件夹里， 拷贝如图的各个文件到该文件夹 ```python setup.py install```
+* Step 10: cd 至mxnet文件夹的python文件夹里， 拷贝如图的各个文件到该文件夹 
+
+![iamge](https://raw.githubusercontent.com/Trouble404/Kaggle-Dog-breed-Identification/master/readme_pic_add/dll.PNG)
+然后使用 ```python setup.py install```
+
+Step 11: 再次拷贝上图的文件到Anaconda的MXNet虚拟环境的Lib\\\site-packages\mxnet-版本名.egg\mxnet 中 并且添加此路径到环境变量path中
+
+Step 12: ```conda install nb_conda``` 激活这个虚拟环境到juptyer notebook里面  打开jupyter book就可以进行测试了
+
+
