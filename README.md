@@ -1,6 +1,9 @@
 # Kaggle-Dog-breed-Identification
 Determine the breed of a dog in an image
 
+![iamge](https://raw.githubusercontent.com/Trouble404/Kaggle-Dog-breed-Identification/master/readme_pic_add/readme_1.png)
+![image](https://raw.githubusercontent.com/Trouble404/Kaggle-Dog-breed-Identification/master/readme_pic_add/readme_2.png)
+
 ---
 
 **After Finish MXnet GPU install, Run [MXNet_test](https://github.com/Trouble404/Kaggle-Dog-breed-Identification/blob/master/mxnet_test/mxnet_test.ipynb) to check the MXnet working on GPU**
