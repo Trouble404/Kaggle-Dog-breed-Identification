@@ -11,6 +11,6 @@ Reduce batch size to 4. The gpu can work well, follwing is comparasion of gpu an
 **CPU**
 ![image](https://raw.githubusercontent.com/Trouble404/Kaggle-Dog-breed-Identification/master/readme_pic_add/cpu_time.PNG)
 
-**gpu**
+**GPU**
 ![image](https://raw.githubusercontent.com/Trouble404/Kaggle-Dog-breed-Identification/master/readme_pic_add/gpu_time.PNG)
 
