@@ -48,6 +48,7 @@ Determine the breed of a dog in an image
 * Step 12: cd 至mxnet文件夹的python文件夹里， 拷贝如图的各个文件到该文件夹 
 
 ![iamge](https://raw.githubusercontent.com/Trouble404/Kaggle-Dog-breed-Identification/master/readme_pic_add/dll.PNG)
+
 然后使用 ```python setup.py install```
 
 Step 13: 再次拷贝上图的文件到Anaconda的MXNet虚拟环境的 Lib\site-packages\mxnet-版本名.egg\mxnet 中 并且添加此路径到环境变量path中
